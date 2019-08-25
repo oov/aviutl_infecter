@@ -1,0 +1,5 @@
+.vscode
+src/ver.h
+obj/
+bin/
+VERSION
