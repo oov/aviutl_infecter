@@ -2,9 +2,6 @@
 #include "aviutl.h"
 #include "infecter.h"
 
-#define STB_DS_IMPLEMENTATION
-#include "stb_ds.h"
-
 FILTER_DLL *filter_list[] = {&infecter, NULL};
 
 EXTERN_C FILTER_DLL __declspec(dllexport) * *__stdcall GetFilterTableList(void)
